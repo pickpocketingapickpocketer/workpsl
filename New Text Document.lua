@@ -25,7 +25,7 @@ local CASH_COLOR = Color3.fromRGB(255, 215, 0) -- Gold for Cash
 -- Folders and Models
 local cashiersFolder = Workspace:WaitForChild("Cashiers")
 local ignoredFolder = Workspace:WaitForChild("Ignored")
-local dropsFolder = ignoredFolder:WaitForChild("Drops")
+local dropsFolder = ignoredFolder:WaitForChild("Drop")
 local moneyDropTemplate = dropsFolder:WaitForChild("MoneyDrop")
 local mapFolder = Workspace:WaitForChild("MAP"):WaitForChild("Map")
 local mapVault = mapFolder:WaitForChild("Vault")
